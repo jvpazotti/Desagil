@@ -1,0 +1,18 @@
+package br.edu.desagil.delivery;
+
+public class ItemCombo extends Item {
+	
+	private double desconto;
+
+	public ItemCombo(String nome,double desconto) {
+		super(nome);
+		this.desconto=desconto
+	}
+
+	@Override
+	public double getPreco() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

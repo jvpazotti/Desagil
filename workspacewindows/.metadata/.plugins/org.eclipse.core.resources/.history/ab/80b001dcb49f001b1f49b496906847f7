@@ -1,0 +1,10 @@
+package br.edu.desagil.delivery;
+
+public class ItemCombo extends Item {
+
+	public ItemCombo(String nome) {
+		super(nome);
+		// TODO Auto-generated constructor stub
+	}
+
+}

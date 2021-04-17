@@ -1,0 +1,26 @@
+package br.edu.insper.desagil.aula3;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Histograma {
+
+	public List<Integer> calcula(List<Integer> numeros) {
+		List<Integer> l = new ArrayList<>();
+		
+		int quantidade=0;
+		
+		for (int i:numeros) {
+			quantidade=0;
+			for (int e=0; i<numeros.size();i++) {
+				if (i==e) {
+					quantidade+=i;
+					l.add(quantidade);
+				}
+			}
+		}
+		
+		return l;
+	}
+
+}
