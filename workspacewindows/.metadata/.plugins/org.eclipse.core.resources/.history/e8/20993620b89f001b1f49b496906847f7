@@ -1,0 +1,21 @@
+package br.edu.desagil.delivery;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Estabelecimento {
+	
+	private String nome;
+	
+	private Map<Integer,Item> itens;
+
+	public Estabelecimento(String nome) {
+		this.nome = nome;
+		this.itens= new HashMap<>();
+	}
+	
+	public cadastra
+	
+	
+}

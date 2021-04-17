@@ -1,0 +1,19 @@
+package br.edu.desagil.delivery;
+
+import java.util.List;
+import java.util.Map;
+
+public class Estabelecimento {
+	
+	private String nome;
+	
+	private Map<Item> itens;
+
+	public Estabelecimento(String nome) {
+		super();
+		this.nome = nome;
+		
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+1614779104428	Change method 'executa'
+1614779344822	Rename type 'Variancia'
+1614779421661	Rename type 'VarianciaTest'
+1614779473106	Rename method 'calcula'
+1614779584598	Extract method 'calculaMedia'
+1614779733574	Extract method 'fazConta'
+1614780377501	Extract method 'aleluia'
